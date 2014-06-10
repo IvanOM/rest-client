@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Api client</title>
+    <link rel="stylesheet" href="api_client.css">
+  </head>
+  <body>
+    <h1>Api client</h1>
+    
+    <p>Hello world from Dart!</p>
+    
+    <div api-client>
+      <create url='http://127.0.0.1:8000/news/?format=json'></create>
+    </div>
+
+    <script type="application/dart" src="api_client.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

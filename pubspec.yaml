@@ -1,0 +1,6 @@
+name: api_client
+description: A sample web application
+dependencies:
+  browser: any
+  unittest: ">=0.11.0+1 <0.12.0"
+  angular: 0.10.0
